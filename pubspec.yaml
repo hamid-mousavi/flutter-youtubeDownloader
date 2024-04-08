@@ -1,0 +1,24 @@
+name: flutter_application_widjet
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+  youtube_explode_dart: ^2.2.0
+  permission_handler: ^9.2.0
+  lecle_downloads_path_provider: ^0.0.2+8
+  path: ^1.8.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
